@@ -1,0 +1,86 @@
+body {
+    background-color: lightblue;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul {
+    list-style: none;
+}
+
+#title {
+    border-width: 2px;
+    border-radius: 5px;
+    background-color: lightgreen;
+}
+
+#labels {
+    border-width: 2px;
+    border-radius: 5px;
+    background-color: cadetblue;
+    color: white;
+}
+
+#addLabels {
+    border-width: 2px;
+    border-radius: 5px;
+    background-color: darkcyan;
+    color: white;
+}
+
+#close {
+    border-width: 2px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+#bg {
+    border-width: 2px;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+#text {
+    border-width: 3px;
+    border-radius: 6px;
+    background-color: lightgray;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+    font-size: 300%;
+}
+
+#title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#text {
+    flex-grow: 1;
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-top: 2em;
+    resize: none;
+}
+
+li {
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 2px;
+    border: 1px solid gray;
+    float: left;
+    width: 30%;
+    height: 30%;
+}
+
+.selectedLabel {
+    border-width: 1px;
+    border-radius: 3px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Onsite 1</title>
+</head>
+
+<body>
+    <h1>Delta Keep</h1>
+    <div id="total">
+        <input type="text" id="title" placeholder="Title">
+        <div id="textDiv"><textarea id="text" placeholder="Text" rows="5" cols="80"></textarea></div>
+        <select name="colors" id="bg">
+            <option value="pink">Pink</option>
+            <option value="yellow">Yellow</option>
+            <option value="white" selected>White</option>
+            <option value="orange">Orange</option>
+            <option value="cyan">Cyan</option>
+        </select>
+        <select name="labels" id="labels">
+            <option value="None" selected>None</option>
+        </select>
+        <button id="addLabels">New Label</button>
+        <button id="close">Add Note</button>
+        <ul id="list"></ul>
+    </div>
+    <script src="scripts.js" defer></script>
+</body>
+
+</html>
